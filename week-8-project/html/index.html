@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Studio Nova — Home</title>
+  <meta name="description" content="Studio Nova — portfolio & services" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Studio<span>Nova</span></a>
+      <nav id="site-nav" class="nav" aria-label="Main navigation">
+        <class="nav-list">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </class="nav-list">
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text animate-on-scroll">
+          <h1>Design & Build <span class="accent">Beautiful</span> Experiences</h1>
+          <p>We craft fast, accessible websites and simple web apps that people enjoy using.</p>
+          <p><a class="btn" href="services.html">See Services</a> <a class="btn ghost" href="contact.html">Get in touch</a></p>
+        </div>
+        <div class="hero-visual animate-on-scroll">
+          <!-- replace image in /images/hero.jpg -->
+          <img src="../images/hero.jpg" alt="Illustration of product design workspace" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2 class="section-title animate-on-scroll">What we do</h2>
+      <div class="grid grid-3">
+        <article class="card animate-on-scroll">
+          <img src="../images/service1.jpg" alt="" aria-hidden="true"/>
+          <h3>Product Design</h3>
+          <p>UX-driven design and high-fidelity prototypes.</p>
+        </article>
+        <article class="card animate-on-scroll">
+          <img src="../images/frontend.jpg" alt="" aria-hidden="true"/>
+          <h3>Frontend Engineering</h3>
+          <p>Fast, accessible, and maintainable code.</p>
+        </article>
+        <article class="card animate-on-scroll">
+          <img src="../images/optimize.jpg" alt="" aria-hidden="true"/>
+          <h3>Optimization</h3>
+          <p>Performance tuning and best practices audits.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta container animate-on-scroll">
+      <h2>Ready to start?</h2>
+      <p>Tell us about your project and we'll respond with a clear plan.</p>
+      <p><a class="btn" href="contact.html">Contact Us</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Studio Nova — Built with care.</p>
+      <div class="socials">
+        <a href="#" aria-label="Twitter">T</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>

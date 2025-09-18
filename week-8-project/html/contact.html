@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Studio Nova — Contact</title>
+  <meta name="description" content="Contact Studio Nova" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Studio<span>Nova</span></a>
+      <nav id="site-nav" class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+    <section class="container contact-hero animate-on-scroll">
+      <h1>Contact</h1>
+      <p>Tell us about your project. We respond within 2–3 business days.</p>
+    </section>
+
+    <section class="container contact-form-section animate-on-scroll">
+      <form id="contact-form" class="contact-form" novalidate>
+        <!-- Honeypot field to deter bots -->
+        <input type="text" name="website" class="honeypot" aria-hidden="true" tabindex="-1" />
+
+        <label for="name">Name <span class="required">*</span></label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email <span class="required">*</span></label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message <span class="required">*</span></label>
+        <textarea id="message" name="message" required rows="6"></textarea>
+
+        <div id="form-errors" class="form-errors" role="alert" aria-live="polite"></div>
+
+        <button type="submit" class="btn">Send message</button>
+      </form>
+
+      <div id="form-success" class="form-success" hidden>
+        <h3>Thanks — we received your message!</h3>
+        <p>We’ll be in touch soon.</p>
+        <button id="success-close" class="btn ghost">Close</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year4"></span> Studio Nova — Built with care.</p>
+      <div class="socials">
+        <a href="#" aria-label="Twitter">T</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
