@@ -2,6 +2,7 @@
 
 A responsive multi-page portfolio/business website built using **HTML5, CSS3, and vanilla JavaScript**.  
 The project demonstrates a clean, modern, and mobile-friendly design with consistent layouts across all pages.
+visit site - https://nova-2-swart.vercel.app
 
 ---
 
